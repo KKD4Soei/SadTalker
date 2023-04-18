@@ -1,0 +1,24 @@
+python inference.py --driven_audio examples\driven_audio\chinese_poem1.wav --source_image  examples\source_image\me.png --still --ref_video examples\ref_video\WDA_KatieHill_000.mp4 --enhancer gfpgan --preprocess resize
+
+
+从音频和单个图像生成 4D 自由视图谈话示例
+ python inference.py --driven_audio examples\driven_audio\chinese_poem1.wav --source_image  examples\source_image\me.png --camera_yaw -20 30 10
+
+
+python inference.py --driven_audio examples\driven_audio\chinese_poem2.wav --source_image  examples\source_image\full_body_2.png --still --full_img_enhancer gfpgan
+
+python inference.py --driven_audio examples\driven_audio\什么是机器视觉.wav --source_image  examples\source_image\me.png --still --enhancer gfpgan --preprocess full
+
+python inference.py --driven_audio examples\driven_audio\什么是机器视觉系统-0001.wav --source_image  examples\source_image\me.png  --enhancer gfpgan --preprocess full --still --ref_pose examples\ref_video\WDA_AlexandriaOcasioCortez_000.mp4
+python inference.py --driven_audio examples\driven_audio\什么是机器视觉系统-0002.wav --source_image  examples\source_image\me.png  --enhancer gfpgan --preprocess full --still --ref_pose examples\ref_video\WDA_AlexandriaOcasioCortez_000.mp4
+python inference.py --driven_audio examples\driven_audio\什么是机器视觉系统-0003.wav --source_image  examples\source_image\me.png  --enhancer gfpgan --preprocess full --still --ref_pose examples\ref_video\WDA_AlexandriaOcasioCortez_000.mp4
+python inference.py --driven_audio examples\driven_audio\什么是机器视觉系统-0004.wav --source_image  examples\source_image\me.png  --enhancer gfpgan --preprocess full --still --ref_pose examples\ref_video\WDA_AlexandriaOcasioCortez_000.mp4
+python inference.py --driven_audio examples\driven_audio\什么是机器视觉系统-0005.wav --source_image  examples\source_image\me.png  --enhancer gfpgan --preprocess full --still --ref_pose examples\ref_video\WDA_AlexandriaOcasioCortez_000.mp4
+python inference.py --driven_audio examples\driven_audio\什么是机器视觉系统-0006.wav --source_image  examples\source_image\me.png  --enhancer gfpgan --preprocess full --still --ref_pose examples\ref_video\WDA_AlexandriaOcasioCortez_000.mp4
+python inference.py --driven_audio examples\driven_audio\什么是机器视觉系统-0007.wav --source_image  examples\source_image\me.png  --enhancer gfpgan --preprocess full --still --ref_pose examples\ref_video\WDA_AlexandriaOcasioCortez_000.mp4
+python inference.py --driven_audio examples\driven_audio\什么是机器视觉系统-0008.wav --source_image  examples\source_image\me.png  --enhancer gfpgan --preprocess full --still --ref_pose examples\ref_video\WDA_AlexandriaOcasioCortez_000.mp4
+
+python inference.py --driven_audio examples\driven_audio\chinese_poem1.wav --source_image  examples\source_image\me.png  --enhancer gfpgan --preprocess full --still --ref_eyeblink examples\ref_video\ME.mp4
+python inference.py --driven_audio examples\driven_audio\chinese_poem1.wav --source_image  examples\source_image\me.png  --enhancer gfpgan --preprocess full --still --ref_pose examples\ref_video\WDA_AlexandriaOcasioCortez_000.mp4
+
+python inference.py --driven_audio examples\driven_audio\什么是机器视觉系统-0008.wav --source_image  examples\source_image\me.png  --enhancer gfpgan --preprocess full --still
